@@ -15,7 +15,7 @@ The current vector store is a small, file-backed implementation intended for a s
 ## Run the full demo with Docker Compose (recommended)
 
 Requirements: Docker Desktop with Linux containers and Docker Compose.
-
+ 
 From the project root in PowerShell:
 
 ```powershell
