@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: assistant-config
+  namespace: knowledge-assistant
+data:
+  DATA_DIR: /app/data
+  HF_HOME: /app/data/huggingface
+  EMBED_MODEL: sentence-transformers/all-MiniLM-L6-v2
+  OPENROUTER_MODEL: openrouter/free
+  CORS_ORIGINS: http://localhost:8080
