@@ -1,4 +1,5 @@
 # Enterprise AI Knowledge Assistant
+![CI](https://github.com/sr2801x/rag_know/actions/workflows/ci-cd.yml/badge.svg)
 
 Upload PDFs and ask questions grounded in their contents, with inline page citations.
 
