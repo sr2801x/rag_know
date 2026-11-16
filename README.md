@@ -1,5 +1,5 @@
 # Enterprise AI Knowledge Assistant
-![CI](https://github.com/sr2801x/rag_know/actions/workflows/ci-cd.yml/badge.svg)
+[![CI/CD](https://github.com/sr2801x/rag_know/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/sr2801x/rag_know/actions/workflows/ci-cd.yml)
 
 Upload PDFs and ask questions grounded in their contents, with inline page citations.
 
@@ -148,3 +148,6 @@ The FastAPI service exposes `/health` and Prometheus metrics at `/metrics`. Dock
 ## API endpoints
 
 `POST /upload`, `POST /ask`, `GET /documents`, `DELETE /documents/{id}`, `GET /health`, and `GET /metrics`.
+
+
+[def]: https://github.com/sr2801x/rag_know/actions/workflows/ci-cd.yml/badge.svg
